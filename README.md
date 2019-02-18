@@ -23,7 +23,12 @@ $ sudo npm install http-server
 $ http-server metaqp
 ```
 
-### Pretty printing `data.json`
+### Generating Data in JSON format
+
+`python3 build_search_data.py`
+This script logs the address of question paper files and output the required JSON data.
+
+### Buitifying `data.json`
 
 You can use any JSON utility that is installed on your computer.
 [`jq`](https://stedolan.github.io/jq/) is recommended.
